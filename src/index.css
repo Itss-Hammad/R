@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Brandon;
+  src: url("./assets/fonts/Brandon_reg.otf");
+}
+
+@font-face {
+  font-family: Brandon;
+  src: url("./assets/fonts/Brandon_bld.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Brandon;
+  src: url("./assets/fonts/Brandon_med.otf");
+  font-weight: 450;
+}
+
+body {
+  margin: 0;
+  font-family: Brandon;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: Brandon;
+}
